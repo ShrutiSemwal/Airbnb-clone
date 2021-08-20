@@ -1,12 +1,11 @@
 function Footer() {
 
     return (
-        <div className="grid grid-cols-1 md:grid-cols-4 space-y-10 
+        
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-y-10 
         px-32 py-14 bg-gray-100 text-gray-600">
-
-            
-
-           <div className="space-y-4 text-xs text-gray-800">
+             
+             <div className="space-y-4 text-xs text-gray-800">
            <h5 className="font-bold">ABOUT</h5>
            <p>How Airbnb works</p>
            <p>Newsroom</p>
@@ -26,9 +25,9 @@ function Footer() {
 
             <div className="space-y-4 text-xs text-gray-800">
            <h5 className="font-bold">HOST</h5>
-           <p>Shruti Semwal</p>
+           <p>Shruti</p>
            <p>Presents</p>
-           <p>Projects on</p>
+           <p>Project on</p>
            <p>Clone Web-app</p>
            <p>Airbnb Next.js App</p>
             </div>
@@ -37,12 +36,12 @@ function Footer() {
            <h5 className="font-bold">SUPPORT</h5>
            <p>Help Centre</p>
            <p>Trust & Safety</p>
-           <p>Say Hi everyone</p>
+           <p>Hi everyone!!</p>
            <p>If any query</p>
-           <p>contact me</p>
+           <p>Contact Me</p>
             </div>
-           
-        </div>
+          </div>     
+        
     )
 }
 

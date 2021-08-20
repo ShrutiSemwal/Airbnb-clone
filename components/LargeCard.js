@@ -8,7 +8,7 @@ function LargeCard({img, title, description, buttonText}) {
                 src={img}
                 layout="fill"
                 objectFit="cover"
-                className="rounded-2xl"
+                className="rounded-2xl animate-pulse"
                 />
             </div>
              

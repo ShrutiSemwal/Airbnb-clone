@@ -8,7 +8,7 @@ function MediumCard({img, title}) {
             <Image
             src={img}
             layout="fill"
-            className="rounded-xl"
+            className="rounded-xl animate-bounce"
              />
             </div>
            <h3 className="text-2xl mt-3">{title}</h3>

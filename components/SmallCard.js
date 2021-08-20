@@ -10,7 +10,7 @@ function SmallCard({img, location, distance}) {
                 <Image
                 src={img}
                 layout="fill"
-                className="rounded-lg"
+                className="rounded-lg animate-bounce"
 
                  />
             </div>
